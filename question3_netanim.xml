@@ -1,0 +1,89 @@
+<anim ver="netanim-3.109" filetype="animation" >
+<node id="0" sysId="0" locX="0" locY="0" />
+<node id="1" sysId="0" locX="50" locY="0" />
+<node id="2" sysId="0" locX="100" locY="0" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="255" g="0" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<link fromId="0" toId="1" fd="10.1.1.1~00:00:00:00:00:01" td="10.1.1.2~00:00:00:00:00:02" ld="" />
+<nonp2plinkproperties id="0" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<link fromId="1" toId="2" fd="10.1.2.1~00:00:00:00:00:03" td="10.1.2.2~00:00:00:00:00:04" ld="" />
+<nonp2plinkproperties id="1" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<nonp2plinkproperties id="2" ipAddress="127.0.0.1~00:00:00:00:00:00" channelType="Unknown channel" />
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="0" >
+<address >10.1.1.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="1" >
+<address >10.1.1.2</address>
+
+<address >10.1.2.1</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ip n="2" >
+<address >10.1.2.2</address>
+
+<address >127.0.0.1</address>
+
+</ip>
+<ipv6 n="0" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="1" >
+<address >::1</address>
+
+</ipv6>
+<ipv6 n="2" >
+<address >::1</address>
+
+</ipv6>
+<nu p="s" t="0" id="0" w="1" h="1" />
+<nu p="s" t="0" id="1" w="1" h="1" />
+<nu p="s" t="0" id="2" w="1" h="1" />
+<ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="d" t="0" id="0" descr="Client n0" />
+<nu p="d" t="0" id="1" descr="Routeur n1" />
+<nu p="d" t="0" id="2" descr="Serveur n2" />
+<nu p="c" t="0" id="0" r="0" g="255" b="0" />
+<nu p="c" t="0" id="1" r="255" g="255" b="0" />
+<nu p="c" t="0" id="2" r="255" g="0" b="0" />
+<p fId="0" fbTx="2" lbTx="2.0004336" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 0 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="1" fbRx="2.01" lbRx="2.0104336" />
+<p fId="1" fbTx="2.0104336" lbTx="2.0108672" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 63 id 0 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="2" fbRx="2.0204336" lbRx="2.0208672" />
+<p fId="0" fbTx="4" lbTx="4.0004336" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 1 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="1" fbRx="4.01" lbRx="4.0104336" />
+<p fId="1" fbTx="4.0104336" lbTx="4.0108672" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 63 id 1 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="2" fbRx="4.0204336" lbRx="4.0208672" />
+<p fId="0" fbTx="6" lbTx="6.0004336" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 64 id 2 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="1" fbRx="6.01" lbRx="6.0104336" />
+<p fId="1" fbTx="6.0104336" lbTx="6.0108672" meta-info="ns3::PppHeader (Point-to-Point Protocol: IP (0x0021)) ns3::Ipv4Header (tos 0x0 DSCP Default ECN Not-ECT ttl 63 id 2 protocol 17 offset (bytes) 0 flags [none] length: 540 10.1.1.1 &gt; 10.1.2.2) ns3::UdpHeader (length: 520 49153 &gt; 9) Payload (size=512)" tId="2" fbRx="6.0204336" lbRx="6.0208672" />
+</anim>
